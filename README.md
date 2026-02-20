@@ -6,9 +6,6 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
-
-Plataforma de simulação...
-
 Plataforma de simulação de um Security Operations Center (SOC) com engine de risco baseada em IA, desenvolvida em Python e Streamlit.
 
 O projeto simula eventos de segurança, calcula score de risco contextual, classifica níveis de ameaça e exibe tendências históricas em tempo real — funcionando como um mini-SIEM educacional.
