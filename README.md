@@ -18,7 +18,7 @@ Demonstrar a aplicação de Inteligência Artificial e modelagem de risco em um 
 - Cálculo contextual de risco
 - Classificação automática de ameaças
 - Visualização estratégica de métricas
-
+  
 ---
 
 ## 🚀 Funcionalidades
@@ -61,8 +61,10 @@ O cálculo de risco considera:
 1️⃣ Criar ambiente virtual:
 
 ```bash
-python -m venv venv
 
+```
+python -m venv venv
+```
 2️⃣ Ativar ambiente:
 
 Windows:
@@ -106,7 +108,7 @@ Deploy em nuvem (AWS / Render / Azure)
 
 📷 Demonstração
 
-Adicionar screenshot do dashboard após subir para o GitHub.
+![SOC Dashboard](docs/Teste1.png)
 
 ## 👩‍💻 Sobre a Autora
 
