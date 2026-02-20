@@ -1,50 +1,115 @@
-# 🛡️ Autonomous AI SOC Lab (Cloud + Docker)
+# 🛡 Autonomous AI SOC Cloud Lab
 
-## Overview
-A modular Cloud Security + DevSecOps + AI Automation lab integrating:
-- Threat Intelligence (simulated/API)
-- CVE Monitor
-- Phishing Detection
-- Risk Score Engine
-- Streamlit Dashboard
-- Docker & Docker Compose
-- Cloud Deploy (Render/AWS)
+Plataforma de simulação de um Security Operations Center (SOC) com engine de risco baseada em IA, desenvolvida em Python e Streamlit.
 
-## Project Structure
-```
-ai-soc-cloud-lab/
-│
-├── app/
-│   ├── app.py
-│   ├── risk_engine.py
-│   ├── threat_intel.py
-│   ├── cve_monitor.py
-│   ├── phishing_detector.py
-│   ├── data_simulator.py
-│
-├── data/
-│   └── sample_events.json
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-```
+O projeto simula eventos de segurança, calcula score de risco contextual, classifica níveis de ameaça e exibe tendências históricas em tempo real — funcionando como um mini-SIEM educacional.
 
-## MVP Features
-- Event simulator
-- Risk engine
-- Functional dashboard
-- Local Docker container
+---
 
-## Run Locally
-1. Build and start container:
-   ```
-docker compose up --build
-```
-2. Access dashboard:
-   - http://localhost:8501
+## 🚀 Funcionalidades
 
-## Next Steps
-- Integrate real APIs
-- Cloud deployment
+- 🔥 Simulação de eventos de segurança
+- 🧠 Engine de cálculo de risco contextual
+- 🎯 Classificação automática de ameaças (LOW / MEDIUM / HIGH / CRITICAL)
+- 📊 Visualização de tendência de risco ao longo do tempo
+- 📈 Métricas do SOC (Total de eventos e risco médio)
+- 🔄 Modo automático (simulação em tempo real)
+- 🧹 Reset do ambiente
+
+---
+
+## 🏗 Arquitetura do Sistema
+
+Fluxo de funcionamento:
+
+Gerador de Evento → Engine de Risco → Classificação → Dashboard → Histórico
+
+O cálculo de risco considera:
+
+- Severidade do evento
+- Tipo de ameaça (CVE, phishing, brute force, malware)
+- Peso contextual aplicado por tipo de ataque
+
+---
+
+## 🛠 Stack Tecnológica
+
+- Python 3.12
+- Streamlit
+- Pandas
+- Docker (opcional para deploy)
+
+---
+
+## ▶ Como Executar Localmente
+
+1️⃣ Criar ambiente virtual:
+
+```bash
+python -m venv venv
+
+2️⃣ Ativar ambiente:
+
+Windows:
+
+venv\Scripts\Activate
+
+3️⃣ Instalar dependências:
+
+pip install -r requirements.txt
+
+4️⃣ Executar aplicação:
+
+streamlit run app/app.py
+
+Abrir no navegador:
+
+http://localhost:8501
+🧪 Casos de Uso
+
+Portfólio para Segurança da Informação
+
+Demonstração de lógica de cálculo de risco
+
+Simulação de fluxo de SOC
+
+Laboratório educacional de cibersegurança
+
+Base para construção de SIEM customizado
+
+🔮 Próximas Evoluções
+
+Integração com API de Threat Intelligence
+
+Persistência em banco de dados (PostgreSQL)
+
+Autenticação de usuários
+
+Multi-tenant
+
+Deploy em nuvem (AWS / Render / Azure)
+
+📷 Demonstração
+
+Adicionar screenshot do dashboard após subir para o GitHub.
+
+👨‍💻 Autora
+
+Paula Sabino
+
+1 Acesse GitHub:
+👉 https://github.com/Paula-Tech007
+
+2 Acesse Linkedin:
+👉 https://www.linkedin.com/in/paula-sabino-49830573/
+
+
+Projeto desenvolvido como parte de um portfólio técnico focado em:
+
+Inteligência Artificial aplicada à Segurança
+
+Engenharia de Segurança
+
+Blue Team / SOC
+
+Análise de risco automatizada
