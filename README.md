@@ -10,6 +10,15 @@ Plataforma de simulação de um Security Operations Center (SOC) com engine de r
 
 O projeto simula eventos de segurança, calcula score de risco contextual, classifica níveis de ameaça e exibe tendências históricas em tempo real — funcionando como um mini-SIEM educacional.
 
+## 🎯 Objetivo do Projeto
+
+Demonstrar a aplicação de Inteligência Artificial e modelagem de risco em um ambiente simulado de Security Operations Center (SOC), com foco em:
+
+- Automação de análise de eventos
+- Cálculo contextual de risco
+- Classificação automática de ameaças
+- Visualização estratégica de métricas
+
 ---
 
 ## 🚀 Funcionalidades
@@ -99,15 +108,13 @@ Deploy em nuvem (AWS / Render / Azure)
 
 Adicionar screenshot do dashboard após subir para o GitHub.
 
-👨‍💻 Autora
+## 👩‍💻 Sobre a Autora
 
-Paula Sabino
+**Paula Sabino**  
+Security Engineering | AI aplicada à Cibersegurança  
 
-1 Acesse GitHub:
-👉 https://github.com/Paula-Tech007
-
-2 Acesse Linkedin:
-👉 https://www.linkedin.com/in/paula-sabino-49830573/
+🔗 GitHub: https://github.com/Paula-Tech007  
+🔗 LinkedIn: https://www.linkedin.com/in/paula-sabino-49830573/
 
 
 Projeto desenvolvido como parte de um portfólio técnico focado em:
