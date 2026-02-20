@@ -106,9 +106,7 @@ Multi-tenant
 
 Deploy em nuvem (AWS / Render / Azure)
 
-📷 Demonstração
 
-![SOC Dashboard](docs/dashboard.png)
 
 
 ## 👩‍💻 Sobre a Autora
