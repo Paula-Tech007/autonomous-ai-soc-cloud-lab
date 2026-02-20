@@ -6,12 +6,6 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
-# 🛡 Autonomous AI SOC Cloud Lab
-
-![Python](...)
-![Streamlit](...)
-![Status](...)
-![License](...)
 
 Plataforma de simulação...
 
