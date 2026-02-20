@@ -1,0 +1,16 @@
+[
+  {
+    "type": "phishing",
+    "email": "fake@malicious.com"
+  },
+  {
+    "type": "cve",
+    "cve_id": "CVE-2025-1234",
+    "severity": 7
+  },
+  {
+    "type": "threat",
+    "ip": "192.168.1.100",
+    "intel_score": 80
+  }
+]
