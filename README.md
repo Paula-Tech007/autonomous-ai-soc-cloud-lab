@@ -108,7 +108,8 @@ Deploy em nuvem (AWS / Render / Azure)
 
 📷 Demonstração
 
-![SOC Dashboard](docs/Teste1.png)
+![SOC Dashboard](docs/dashboard.png)
+
 
 ## 👩‍💻 Sobre a Autora
 
